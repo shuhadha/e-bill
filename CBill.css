@@ -1,0 +1,63 @@
+body{
+	font-family: 'Arial';
+	color:white;
+	background-color: #676767;
+}
+
+.MyDiv{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+
+.Item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: ;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+table
+{ 	
+
+    border: 3px solid black; 
+    width:450px; 
+    height:550px;
+} 
+table.center 
+{
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
+
+p
+{
+	font-weight: bold;
+}
+
+input 
+{
+  border: 2px solid black;
+  border-radius: 5px;
+  width:75%;
+  height: 50%;
+}
+
+button 
+{
+  background-color:#34eb7a;
+  border:2px solid black;
+  border-radius: 5px;
+  color: darkgreen;
+  padding: 10px 22px;
+  text-align: center;
+}

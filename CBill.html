@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electricity Bill Calculator</title>
+	<link rel="stylesheet" type="text/css" href="CBill.css">
+</head>
+<body>	
+		<div class="Div">
+			<Div class="Item">
+				<h1>DOMESTIC ELECTRICITY BILL CALCULATOR</h1>
+					<h2>Calculate Your Electricity Bill Yourself here!</h2>
+				<table class="center">
+					<tr>
+						<td colspan="2"></td></tr>
+					<tr>
+						<td><p>Preceding Reading</p></td>
+						<td><input type="number"  id="preceding" placeholder="Units in kWh" min="0"></td>
+					</tr>
+					<tr>
+						<td><p>Latest Reading</p></td>
+						<td><input type="number"  id="latest" placeholder="Units in kWh"  min="0"></td>
+					</tr>
+					<tr>
+						<td>
+							<button onclick="document.getElementById('preceding').value='',document.getElementById('latest').value=''">clear
+						</button>
+					</td>
+						<td><button onclick="checkUnit()">Calculate</button>
+							
+					</tr>
+					<tr><td colspan="2"><div id="UResult"></div><br><div id="UPrice"></div></td></tr>
+
+					<tr>
+						<td><a href="https://roar.media/english/life/reports/electricity-bill-calculated-analysis">More information on how my bill is calculated</a></td>
+						<td><a href="https://ceb.lk/bill-calculation-commercial/en">Go to CEB website</a></td>
+					</tr>
+				</table>
+			<h5>Created By:MMS.Issath<br>Reg No : 2017/ICT/62</h5>
+			</Div>
+		</div>
+		<script type="text/javascript" src="CBill.js"></script>
+</body>
+</html>
